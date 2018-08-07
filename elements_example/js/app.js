@@ -126,7 +126,7 @@ init();
 animate();
 function init() {
     camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 10000 );
-    camera.position.z = 3000;
+    camera.position.z = 1;
     scene = new THREE.Scene();
     // table
     for ( var i = 0; i < table.length; i += 5 ) {
